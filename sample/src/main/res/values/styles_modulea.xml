@@ -1,0 +1,46 @@
+<resources>
+
+    <style name="ModuleATheme.App">
+
+        <item name="colorPrimary">@color/base_color_green_300</item>
+        <item name="android:windowBackground">@color/base_color_white_100</item>
+        <item name="cancelButton">@style/CancelButton</item>
+        <item name="sendButton">@style/SendButton</item>
+        <item name="messageStyle">@style/MessageStyle</item>
+        <item name="contentStyle">@style/ContentStyle</item>
+
+    </style>
+
+    <style name="ContentStyle" parent="Module.Widget.ContentStyle">
+
+        <item name="android:background">@color/base_color_white_100</item>
+
+    </style>
+
+    <style name="CancelButton" parent="Module.Widget.CancelButton">
+
+        <item name="android:background">@drawable/bg_button_cancel</item>
+        <item name="android:textColor">@color/base_color_white_0</item>
+        <item name="android:drawableLeft">@null</item>
+        <item name="android:text">Cancelar</item>
+
+    </style>
+
+    <style name="SendButton" parent="Module.Widget.SendButton">
+
+        <item name="android:background">@drawable/bg_button_send</item>
+        <item name="android:textColor">@color/base_color_white_0</item>
+        <item name="android:text">Enviar</item>
+        <item name="android:drawableLeft">@null</item>
+
+    </style>
+
+    <style name="MessageStyle" parent="Module.Widget.MessageStyle">
+
+        <item name="android:textColor">@color/base_color_black_400</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:text">Novo</item>
+
+    </style>
+
+</resources>

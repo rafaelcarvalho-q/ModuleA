@@ -1,0 +1,66 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base"></style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:textColorHint">@color/colorTextSecondary</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="colorControlActivated">@color/colorControlActivated</item>
+        <item name="colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="android:textColorSecondary">@color/colorTextPrimary</item>
+        <item name="android:textColorPrimary">@color/colorTextSecondary</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/Qranio.ActionMode</item>
+        <item name="toolbarStyle">@style/AppTheme.ToolbarStyle</item>
+        <item name="alertDialogTheme">@style/AppCompatAlertDialog</item>
+        <item name="android:spinnerItemStyle">@style/TextViewSpinnerItem</item>
+
+    </style>
+
+    <style name="AppTheme.ToolbarStyle" parent="Base.Widget.AppCompat.Toolbar">
+
+        <item name="subtitleTextAppearance">@style/AppTheme.ToolbarStyle.Subtitle</item>
+
+    </style>
+
+    <style name="AppTheme.ToolbarStyle.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+
+        <item name="android:textSize">@dimen/subtitle_size</item>
+
+    </style>
+
+    <style name="Qranio.NActionButton" parent="Widget.AppCompat.ActionButton">
+
+        <item name="android:layout_width">?attr/actionBarSize</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:clickable">true</item>
+
+    </style>
+
+    <style name="Qranio.ActionMode" parent="@style/Widget.AppCompat.ActionMode">
+
+        <item name="background">@color/colorActionMode</item>
+
+    </style>
+
+    <style name="AppCompatAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:background">@color/windowBackground</item>
+
+    </style>
+
+    <style name="TextViewSpinnerItem" parent="@style/Widget.AppCompat.TextView.SpinnerItem">
+
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+
+    </style>
+
+</resources>

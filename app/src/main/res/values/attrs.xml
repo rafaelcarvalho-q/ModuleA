@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    ================================================================================================
+    Declarar os Attrs
+    ================================================================================================
+    -->
+
+    <attr name="contentStyle" format="reference"/>
+    <attr name="messageStyle" format="reference"/>
+    <attr name="cancelButton" format="reference"/>
+    <attr name="sendButton" format="reference"/>
+
+    <!--
+    ================================================================================================
+    Declarar os Styleable
+    ================================================================================================
+    -->
+
+</resources>

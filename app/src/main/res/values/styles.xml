@@ -1,0 +1,57 @@
+<resources>
+
+    <style name="ModuleATheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="contentStyle">@style/Module.Widget.ContentStyle</item>
+        <item name="cancelButton">@style/Module.Widget.CancelButton</item>
+        <item name="sendButton">@style/Module.Widget.SendButton</item>
+        <item name="messageStyle">@style/Module.Widget.MessageStyle</item>
+
+    </style>
+
+    <style name="Module"/>
+
+    <style name="Module.Widget"/>
+
+    <style name="Module.Widget.ContentStyle">
+
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@color/color_red_100</item>
+
+    </style>
+
+    <style name="Module.Widget.CancelButton" parent="Base.Widget.AppCompat.Button">
+
+        <item name="android:background">@color/color_red_300</item>
+        <item name="android:drawableLeft">@drawable/icon</item>
+        <item name="android:text">Cancel</item>
+        <item name="android:layout_marginTop">16dp</item>
+
+    </style>
+
+    <style name="Module.Widget.SendButton" parent="Base.Widget.AppCompat.Button">
+
+        <item name="android:background">@color/color_red_300</item>
+        <item name="android:drawableLeft">@drawable/icon</item>
+        <item name="android:text">Send</item>
+        <item name="android:layout_marginTop">16dp</item>
+
+
+    </style>
+
+    <style name="Module.Widget.MessageStyle" parent="Base.TextAppearance.AppCompat">
+
+        <item name="android:textColor">@color/color_red_500</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">Texto Padrão</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+
+    </style>
+
+</resources>
