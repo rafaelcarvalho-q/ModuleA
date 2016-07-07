@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools"
-          package="com.qranio.sample">
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.qranio.sample">
 
     <application
         android:allowBackup="true"
@@ -11,13 +12,18 @@
         android:theme="@style/AppTheme"
         tools:replace="android:theme">
 
-        <activity android:name=".SampleActivity"
+        <activity
+            android:name=".SampleActivity"
             android:theme="@style/ModuleATheme.App">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListSampleActivity"
+            android:theme="@style/ModuleATheme.App">
         </activity>
     </application>
 

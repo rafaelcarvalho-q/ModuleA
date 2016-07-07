@@ -10,10 +10,10 @@
     android:paddingTop="@dimen/activity_vertical_margin">
 
     <fragment
-        android:id="@+id/fragment_module"
-        android:name="com.qranio.modulea.view.fragment.ModuleAFragment"
+        android:id="@+id/fragment_list_module"
+        android:name="com.qranio.modulea.view.fragment.ListFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout="@layout/fragment_module"/>
+        tools:layout="@layout/fragment_list"/>
 
 </RelativeLayout>

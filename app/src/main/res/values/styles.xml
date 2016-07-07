@@ -5,10 +5,59 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="contentStyle">@style/Module.Widget.ContentStyle</item>
-        <item name="cancelButton">@style/Module.Widget.CancelButton</item>
-        <item name="sendButton">@style/Module.Widget.SendButton</item>
+        <item name="content">@style/Module.Widget.Content</item>
         <item name="messageStyle">@style/Module.Widget.MessageStyle</item>
+        <item name="swipeRefreshLayout">@style/Module.Widget.SwipeRefreshLayout</item>
+        <item name="contentLoadFooter">@style/Module.Widget.ContentLoadFooter</item>
+        <item name="progressBarLoadFooter">@style/Module.Widget.ProgressBarLoadFooter</item>
+        <item name="spaceLineFooter">@style/Module.Widget.SpaceLineFooter</item>
+        <!--<item name="contentItemList">@style/Module.Widget.ContentItemList</item>-->
+        <item name="contentSelector">@style/Module.Widget.ContentSelector</item>
+        <item name="imageUserBodyItemList">@style/Module.Widget.ImageUserBodyItemList</item>
+        <item name="recyclerView">@style/Module.Widget.RecyclerView</item>
+        <item name="labelDefault">@style/Module.Widget.Label.Default</item>
+        <item name="labelPrimary">@style/Module.Widget.Label.Primary</item>
+        <item name="labelInfo">@style/Module.Widget.Label.Info</item>
+        <item name="labelInfoIcon">@style/Module.Widget.Label.Info.Icon</item>
+
+
+        <!-- Buttons -->
+        <item name="btn" format="reference">@style/Button</item>
+        <item name="btnDefault" format="reference">@style/Button.Defaul</item>
+        <!--<item name="btnDefaultSmall" format="reference">@style/Button.Defaul.Small</item>-->
+        <!--<item name="btnDefaultMedium" format="reference">@style/Button.Defaul.Medium</item>-->
+        <!--<item name="btnDefaultLarge" format="reference">@style/Button.Defaul.Large</item>-->
+        <item name="btnDefaultBlock" format="reference">@style/Button.Defaul.Block</item>
+        <item name="btnPrimary" format="reference">@style/Button.Primary</item>
+        <!--<item name="btnPrimarySmall" format="reference">@style/Button.Primary.Small</item>-->
+        <!--<item name="btnPrimaryMedium" format="reference">@style/Button.Primary.Medium</item>-->
+        <!--<item name="btnPrimaryLarge" format="reference">@style/Button.Primary.Large</item>-->
+        <item name="btnPrimaryBlock" format="reference">@style/Button.Primary.Block</item>
+        <!--<item name="btnSuccess" format="reference">@style/</item>-->
+        <!--<item name="btnSuccessSmall" format="reference">@style/</item>-->
+        <!--<item name="btnSuccessMedium" format="reference">@style/</item>-->
+        <!--<item name="btnSuccessLarge" format="reference">@style/</item>-->
+        <!--<item name="btnSuccesstBlock" format="reference">@style/</item>-->
+        <!--<item name="btnInfo" format="reference">@style/</item>-->
+        <!--<item name="btnInfoSmall" format="reference">@style/</item>-->
+        <!--<item name="btnInfoMedium" format="reference">@style/</item>-->
+        <!--<item name="btnInfoLarge" format="reference">@style/</item>-->
+        <!--<item name="btnInfotBlock" format="reference">@style/</item>-->
+        <!--<item name="btnWarning" format="reference">@style/</item>-->
+        <!--<item name="btnWarningSmall" format="reference">@style/</item>-->
+        <!--<item name="btnWarningMedium" format="reference">@style/</item>-->
+        <!--<item name="btnWarningLarge" format="reference">@style/</item>-->
+        <!--<item name="btnWarningBlock" format="reference">@style/</item>-->
+        <!--<item name="btnDanger" format="reference">@style/</item>-->
+        <!--<item name="btnDangerSmall" format="reference">@style/</item>-->
+        <!--<item name="btnDangerMedium" format="reference">@style/</item>-->
+        <!--<item name="btnDangerLarge" format="reference">@style/</item>-->
+        <!--<item name="btnDangerBlock" format="reference">@style/</item>-->
+        <!--<item name="btnLink" format="reference">@style/</item>-->
+        <!--<item name="btnLinkSmall" format="reference">@style/</item>-->
+        <!--<item name="btnLinkMedium" format="reference">@style/</item>-->
+        <!--<item name="btnLinkLarge" format="reference">@style/</item>-->
+        <!--<item name="btnLinkBlock" format="reference">@style/</item>-->
 
     </style>
 
@@ -16,16 +65,15 @@
 
     <style name="Module.Widget"/>
 
-    <style name="Module.Widget.ContentStyle">
+    <style name="Module.Widget.Content">
 
-        <item name="android:padding">16dp</item>
-        <item name="android:background">@color/color_red_100</item>
+        <item name="android:background">@color/module_red_100</item>
 
     </style>
 
     <style name="Module.Widget.CancelButton" parent="Base.Widget.AppCompat.Button">
 
-        <item name="android:background">@color/color_red_300</item>
+        <item name="android:background">@color/module_red_300</item>
         <item name="android:drawableLeft">@drawable/icon</item>
         <item name="android:text">Cancel</item>
         <item name="android:layout_marginTop">16dp</item>
@@ -34,23 +82,191 @@
 
     <style name="Module.Widget.SendButton" parent="Base.Widget.AppCompat.Button">
 
-        <item name="android:background">@color/color_red_300</item>
+        <item name="android:background">@color/module_red_300</item>
         <item name="android:drawableLeft">@drawable/icon</item>
         <item name="android:text">Send</item>
         <item name="android:layout_marginTop">16dp</item>
-
 
     </style>
 
     <style name="Module.Widget.MessageStyle" parent="Base.TextAppearance.AppCompat">
 
-        <item name="android:textColor">@color/color_red_500</item>
+        <item name="android:textColor">@color/module_red_500</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:text">Texto Padrão</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
+
+    </style>
+
+    <style name="Module.Widget.SwipeRefreshLayout">
+
+        <item name="firstProgressColor">@color/swip_bg</item>
+        <item name="secondProgressColor">@color/swip_bg_2</item>
+        <item name="thirdProgressColor">@color/swip_bg_3</item>
+        <item name="fourtProgressColor">@color/swip_bg_4</item>
+
+    </style>
+
+    <style name="Module.Widget.ContentLoadFooter" parent="Base.Theme.AppCompat">
+
+        <item name="android:background">@color/module_red_100</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+    <style name="Module.Widget.ProgressBarLoadFooter" style="?android:attr/progressBarStyleSmall">
+
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:padding">3dp</item>
+
+    </style>
+
+    <style name="Module.Widget.SpaceLineFooter">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">86dp</item>
+        <item name="android:visibility">gone</item>
+
+    </style>
+
+    <!--<style name="Module.Widget.ContentItemList">-->
+
+    <!--<item name="android:layout_width">match_parent</item>-->
+    <!--<item name="android:layout_height">wrap_content</item>-->
+    <!--<item name="android:clickable">true</item>-->
+    <!--<item name="android:orientation">vertical</item>-->
+
+    <!--</style>-->
+
+    <style name="Module.Widget.ContentSelector">
+
+        <item name="android:background">@drawable/background_item_list</item>
+        <item name="android:clickable">false</item>
+        <item name="android:duplicateParentState">true</item>
+
+    </style>
+
+    <style name="Module.Widget.ImageUserBodyItemList">
+
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:src">@drawable/img_user</item>
+
+    </style>
+
+    <style name="Module.Widget.Label">
+
+        <item name="android:textSize">16sp</item>
+        <item name="android:text">--</item>
+
+    </style>
+
+    <style name="Module.Widget.Label.Default">
+
+        <item name="android:textColor">@color/module_red_400</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:text">--</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="Module.Widget.Label.Primary">
+
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxEms">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:text">--</item>
+
+    </style>
+
+    <style name="Module.Widget.Label.Info">
+
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxEms">10</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:text">--</item>
+
+    </style>
+
+    <style name="Module.Widget.Label.Info.Icon">
+
+        <item name="android:textStyle">bold</item>
+        <item name="android:drawableLeft">@drawable/ic_list</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:text">---</item>
+        <item name="drawableTintSelector">@drawable/background_tv_item_list</item>
+
+    </style>
+
+    <style name="Module.Widget.RecyclerView" parent="Base.Widget.AppCompat.ListView">
+
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+
+    </style>
+
+    <!--
+    ================================================================================================
+    Buttons
+    ================================================================================================
+    -->
+
+    <!-- btn -->
+    <style name="Button" parent="@style/Widget.AppCompat.Button">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+
+    </style>
+
+    <!-- btn Default -->
+    <style name="Button.Defaul">
+
+        <item name="android:background">@drawable/btn_default_background</item>
+        <item name="android:textColor">@color/btn_default_bg_text</item>
+        <item name="android:text">Default</item>
+
+    </style>
+
+    <!-- btn Default Block -->
+    <style name="Button.Defaul.Block">
+
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+
+    <!-- btn Default Primary -->
+    <style name="Button.Primary">
+
+        <item name="android:text">Primary</item>
+        <item name="android:background">@drawable/btn_primary_background</item>
+        <item name="android:textColor">@color/btn_primary_bg_text</item>
+
+    </style>
+
+    <style name="Button.Primary.Block">
+
+        <item name="android:layout_width">match_parent</item>
 
     </style>
 

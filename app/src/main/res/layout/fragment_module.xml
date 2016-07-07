@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
     <RelativeLayout
-        style="?attr/contentStyle"
+        style="?attr/content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true">
@@ -21,22 +21,21 @@
 
             <Button
                 android:id="@+id/bt_cancel"
-                style="?attr/cancelButton"
+                style="?attr/btnDefaultBlock"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tv_message"
                 android:layout_centerHorizontal="true"
                 android:layout_weight="1"/>
 
-            <Button
-                android:id="@+id/bt_send"
-                style="?attr/sendButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/bt_cancel"
-                android:layout_centerHorizontal="true"
-                android:layout_marginLeft="5dp"
-                android:layout_weight="1"/>
+            <!--<Button-->
+                <!--android:id="@+id/bt_send"-->
+                <!--style="?attr/btnPrimaryBlock"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/bt_cancel"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_weight="1"/>-->
 
         </LinearLayout>
 

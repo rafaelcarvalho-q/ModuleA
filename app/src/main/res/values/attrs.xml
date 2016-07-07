@@ -7,15 +7,105 @@
     ================================================================================================
     -->
 
-    <attr name="contentStyle" format="reference"/>
+    <!-- Content -->
+    <attr name="content" format="reference"/>
+    <attr name="contentSelector" format="reference"/>
+
+    <!--
+    ================================================================================================
+    Buttons
+    ================================================================================================
+    -->
+
+    <attr name="btn" format="reference"/>
+
+    <attr name="btnDefault" format="reference"/>
+    <!--<attr name="btnDefaultSmall" format="reference"/>-->
+    <!--<attr name="btnDefaultMedium" format="reference"/>-->
+    <!--<attr name="btnDefaultLarge" format="reference"/>-->
+    <attr name="btnDefaultBlock" format="reference"/>
+
+    <attr name="btnPrimary" format="reference"/>
+    <!--<attr name="btnPrimarySmall" format="reference"/>-->
+    <!--<attr name="btnPrimaryMedium" format="reference"/>-->
+    <!--<attr name="btnPrimaryLarge" format="reference"/>-->
+    <attr name="btnPrimaryBlock" format="reference"/>
+
+    <!--<attr name="btnSuccess" format="reference"/>-->
+    <!--<attr name="btnSuccessSmall" format="reference"/>-->
+    <!--<attr name="btnSuccessMedium" format="reference"/>-->
+    <!--<attr name="btnSuccessLarge" format="reference"/>-->
+    <!--<attr name="btnSuccesstBlock" format="reference"/>-->
+
+    <!--<attr name="btnInfo" format="reference"/>-->
+    <!--<attr name="btnInfoSmall" format="reference"/>-->
+    <!--<attr name="btnInfoMedium" format="reference"/>-->
+    <!--<attr name="btnInfoLarge" format="reference"/>-->
+    <!--<attr name="btnInfotBlock" format="reference"/>-->
+
+    <!--<attr name="btnWarning" format="reference"/>-->
+    <!--<attr name="btnWarningSmall" format="reference"/>-->
+    <!--<attr name="btnWarningMedium" format="reference"/>-->
+    <!--<attr name="btnWarningLarge" format="reference"/>-->
+    <!--<attr name="btnWarningBlock" format="reference"/>-->
+
+    <!--<attr name="btnDanger" format="reference"/>-->
+    <!--<attr name="btnDangerSmall" format="reference"/>-->
+    <!--<attr name="btnDangerMedium" format="reference"/>-->
+    <!--<attr name="btnDangerLarge" format="reference"/>-->
+    <!--<attr name="btnDangerBlock" format="reference"/>-->
+
+    <!--<attr name="btnLink" format="reference"/>-->
+    <!--<attr name="btnLinkSmall" format="reference"/>-->
+    <!--<attr name="btnLinkMedium" format="reference"/>-->
+    <!--<attr name="btnLinkLarge" format="reference"/>-->
+    <!--<attr name="btnLinkBlock" format="reference"/>-->
+
+    <!--
+    ================================================================================================
+    Mudar
+    ================================================================================================
+    -->
+
     <attr name="messageStyle" format="reference"/>
-    <attr name="cancelButton" format="reference"/>
-    <attr name="sendButton" format="reference"/>
+    <attr name="swipeRefreshLayout" format="reference"/>
+    <attr name="recyclerView" format="reference"/>
+    <attr name="progressBarLoadFooter" format="reference"/>
+    <attr name="contentLoadFooter" format="reference"/>
+    <attr name="spaceLineFooter" format="reference"/>
+
+
+    <attr name="imageUserBodyItemList" format="reference"/>
+    <attr name="labelDefault" format="reference"/>
+    <attr name="labelPrimary" format="reference"/>
+    <attr name="labelInfo" format="reference"/>
+    <attr name="labelInfoIcon" format="reference"/>
+
+
+    <!-- Compartilhadas -->
+    <attr name="drawableTintSelector" format="reference|color"></attr>
+    <attr name="backgroundTintSelector" format="reference|color"></attr>
 
     <!--
     ================================================================================================
     Declarar os Styleable
     ================================================================================================
     -->
+
+    <declare-styleable name="SwipeRefreshLayoutCustom">
+
+        <attr name="firstProgressColor" format="reference"/>
+        <attr name="secondProgressColor" format="reference"/>
+        <attr name="thirdProgressColor" format="reference"/>
+        <attr name="fourtProgressColor" format="reference"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="TextViewCustom">
+
+        <attr name="drawableTintSelector"/>
+        <attr name="backgroundTintSelector"/>
+
+    </declare-styleable>
 
 </resources>

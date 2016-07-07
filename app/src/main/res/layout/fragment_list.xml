@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.qranio.modulea.view.custom.SwipeRefreshLayoutCustom
+        android:id="@+id/swipeContainer"
+        style="?attr/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_list"
+            style="?attr/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.qranio.modulea.view.custom.SwipeRefreshLayoutCustom>
+
+</RelativeLayout>

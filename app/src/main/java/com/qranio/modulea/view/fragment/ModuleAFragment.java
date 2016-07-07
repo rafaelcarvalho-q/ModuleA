@@ -1,4 +1,4 @@
-package com.qranio.modulea.view;
+package com.qranio.modulea.view.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;

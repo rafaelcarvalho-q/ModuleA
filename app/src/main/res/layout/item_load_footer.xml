@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_content"
+    style="?attr/contentLoadFooter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_content_load_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/pb_progress"
+            style="?attr/progressBarLoadFooter"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v_space"
+        style="?attr/spaceLineFooter"/>
+
+</LinearLayout>

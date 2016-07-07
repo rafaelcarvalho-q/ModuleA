@@ -1,11 +1,13 @@
 package com.qranio.sample;
 
+import android.app.ListActivity;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.qranio.modulea.view.ModuleAFragment;
+import com.qranio.modulea.view.fragment.ModuleAFragment;
 
 public class SampleActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -22,8 +24,8 @@ public class SampleActivity extends AppCompatActivity implements View.OnClickLis
 //        fragment.setCancelButtonLabel("Cancelar2");
 //        fragment.setSendButtonLabel("Enviar2");
 //        fragment.setMessage("Minha mensagem!");
-//        fragment.setCancelButtonListener(this);
-//        fragment.setSendButtonListener(this);
+        fragment.setCancelButtonListener(this);
+        fragment.setSendButtonListener(this);
     }
 
     @Override
@@ -38,7 +40,8 @@ public class SampleActivity extends AppCompatActivity implements View.OnClickLis
 
             case R.id.bt_send:
 
-                Toast.makeText(this, "Botão enviar", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this, "Botão enviar", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this, ListSampleActivity.class));
                 break;
         }
     }
