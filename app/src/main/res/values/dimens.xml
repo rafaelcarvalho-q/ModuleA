@@ -3,4 +3,22 @@
     <dimen name="module_activity_margin">16dp</dimen>
     <dimen name="module_activity_padding">16dp</dimen>
 
+    <!--
+    ================================================================================================
+    Labels
+    ================================================================================================
+    -->
+
+    <!-- Label -->
+    <dimen name="label_default_size">16sp</dimen>
+
+    <!-- Label Default Small-->
+    <dimen name="label_small_size">12sp</dimen>
+
+    <!-- Label Default Medium-->
+    <dimen name="label_medium_size">14sp</dimen>
+
+    <!-- Label Default Large-->
+    <dimen name="label_large_size">18sp</dimen>
+
 </resources>

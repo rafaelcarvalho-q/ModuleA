@@ -2,13 +2,12 @@ package com.qranio.sample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 import com.qranio.modulea.view.fragment.ListFragment;
-import com.qranio.modulea.view.fragment.ModuleAFragment;
 
-public class ListSampleActivity extends AppCompatActivity implements View.OnClickListener {
+public class ListCustomFrameworkActivity extends AppCompatActivity implements View.OnClickListener {
 
     // Views
     ListFragment fragment;
@@ -17,12 +16,27 @@ public class ListSampleActivity extends AppCompatActivity implements View.OnClic
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_sample);
+        setContentView(R.layout.activity_list_custom_framework);
         setScreenComponents();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
     public void onClick(View view) {
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId()) {
+
+            case android.R.id.home:
+
+                onBackPressed();
+                break;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     protected void setScreenComponents() {

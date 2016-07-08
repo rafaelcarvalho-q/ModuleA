@@ -154,9 +154,61 @@
 
     <!-- btn Primary-->
     <color name="btn_primary_bg">@color/module_dark_blue_300</color>
-    <color name="btn_primary_bg_pressed">@color/module_dark_blue_400</color>
-    <color name="btn_primary_bg_focused">@color/module_dark_blue_400</color>
-    <color name="btn_primary_bg_activated">@color/module_dark_blue_400</color>
+    <color name="btn_primary_bg_pressed">@color/module_dark_blue_500</color>
+    <color name="btn_primary_bg_focused">@color/module_dark_blue_500</color>
+    <color name="btn_primary_bg_activated">@color/module_dark_blue_500</color>
     <color name="btn_primary_bg_text">@color/module_white_0</color>
+
+    <!-- btn Success-->
+    <color name="btn_success_bg">@color/module_green_300</color>
+    <color name="btn_success_bg_pressed">@color/module_green_500</color>
+    <color name="btn_success_bg_focused">@color/module_green_500</color>
+    <color name="btn_success_bg_activated">@color/module_green_500</color>
+    <color name="btn_success_bg_text">@color/module_white_0</color>
+
+    <!-- btn Info-->
+    <color name="btn_info_bg">@color/module_blue_300</color>
+    <color name="btn_info_bg_pressed">@color/module_blue_500</color>
+    <color name="btn_info_bg_focused">@color/module_blue_500</color>
+    <color name="btn_info_bg_activated">@color/module_blue_500</color>
+    <color name="btn_info_bg_text">@color/module_white_0</color>
+
+    <!-- btn Warning-->
+    <color name="btn_warning_bg">@color/module_orange_300</color>
+    <color name="btn_warning_bg_pressed">@color/module_orange_500</color>
+    <color name="btn_warning_bg_focused">@color/module_orange_500</color>
+    <color name="btn_warning_bg_activated">@color/module_orange_500</color>
+    <color name="btn_warning_bg_text">@color/module_white_0</color>
+
+    <!-- btn Danger-->
+    <color name="btn_danger_bg">@color/module_red_300</color>
+    <color name="btn_danger_bg_pressed">@color/module_red_500</color>
+    <color name="btn_danger_bg_focused">@color/module_red_500</color>
+    <color name="btn_danger_bg_activated">@color/module_red_500</color>
+    <color name="btn_danger_bg_text">@color/module_white_0</color>
+
+    <!--
+    ================================================================================================
+    Labels
+    ================================================================================================
+    -->
+
+    <!-- Label Default-->
+    <color name="label_default_bg">@color/module_grey_300</color>
+
+    <!-- Label Primary -->
+    <color name="label_primary_bg">@color/module_dark_blue_300</color>
+
+    <!-- Label Success -->
+    <color name="label_success_bg">@color/module_green_300</color>
+
+    <!-- Label Info -->
+    <color name="label_info_bg">@color/module_blue_300</color>
+
+    <!-- Label Warning -->
+    <color name="label_warning_bg">@color/module_orange_300</color>
+
+    <!-- Label Danger -->
+    <color name="label_danger_bg">@color/module_red_300</color>
 
 </resources>

@@ -13,18 +13,30 @@
         tools:replace="android:theme">
 
         <activity
-            android:name=".SampleActivity"
-            android:theme="@style/ModuleATheme.App">
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".ListSampleActivity"
-            android:theme="@style/ModuleATheme.App">
-        </activity>
+            android:name=".ScreeOneDefaultFrameworkActivity"
+            android:theme="@style/ModuleATheme"/>
+
+        <activity
+            android:name=".ScreeOneCustomFrameworkActivity"
+            android:theme="@style/ModuleAThemeApp"/>
+
+        <activity
+            android:name=".ListDefaultFrameworkActivity"
+            android:theme="@style/ModuleATheme"/>
+
+        <activity
+            android:name=".ListCustomFrameworkActivity"
+            android:theme="@style/ModuleAThemeApp"/>
+
     </application>
 
 </manifest>

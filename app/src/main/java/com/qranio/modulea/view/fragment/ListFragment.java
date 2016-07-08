@@ -61,21 +61,14 @@ public class ListFragment extends Fragment {
         swipeContainer.setColorSchemeResources(colorResIds);
     }
 
+    public void setClickListener(ClickListener<User> itemClickListener) {
+
+        adapter.setClickListener(itemClickListener);
+    }
+
     //==============================================================================================
     // Métodos Privados
     //==============================================================================================
-
-    private ClickListener<User> itemClickListener = new ClickListener<User>() {
-        @Override
-        public void onItemClick(View view, int position, User data) {
-
-            // TODO impl
-        }
-
-        @Override
-        public void onLongClick(View view, int position, User data) {
-        }
-    };
 
     private void setScreenComponents() {
 
@@ -90,8 +83,6 @@ public class ListFragment extends Fragment {
     }
 
     private void setListeners() {
-
-        adapter.setClickListener(itemClickListener);
     }
 
     private void listUsers() {

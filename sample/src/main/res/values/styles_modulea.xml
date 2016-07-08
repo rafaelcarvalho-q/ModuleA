@@ -1,46 +1,461 @@
 <resources>
 
-    <style name="ModuleATheme.App">
+    <style name="ModuleAThemeApp" parent="Theme.AppCompat.Light.DarkActionBar">
 
-        <!--<item name="colorPrimary">@color/base_color_green_300</item>-->
-        <!--<item name="android:windowBackground">@color/base_color_white_100</item>-->
-        <!--<item name="cancelButton">@style/CancelButton</item>-->
-        <!--<item name="sendButton">@style/SendButton</item>-->
-        <!--<item name="messageStyle">@style/MessageStyle</item>-->
-        <!--<item name="contentStyle">@style/ContentStyle</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/base_color_white_100</item>
+
+        <item name="content">@style/CustomContent</item>
+        <item name="swipeRefreshLayout">@style/CustomSwipeRefreshLayout</item>
+        <item name="contentLoadFooter">@style/CustomContentLoadFooter</item>
+        <item name="progressBarLoadFooter">@style/CustomProgressBarLoadFooter</item>
+        <item name="spaceLineFooter">@style/CustomSpaceLineFooter</item>
+        <item name="contentSelector">@style/CustomContentSelector</item>
+        <item name="imageUserBodyItemList">@style/CustomImageUserBodyItemList</item>
+        <item name="recyclerView">@style/CustomRecyclerView</item>
+
+        <!-- Buttons -->
+        <item name="btn">@style/CustomButton</item>
+
+        <item name="btnDefault">@style/CustomButton.Default</item>
+        <item name="btnDefaultBlock">@style/CustomButton.Default.Block</item>
+
+        <item name="btnPrimary">@style/CustomButton.Primary</item>
+        <item name="btnPrimaryBlock">@style/CustomButton.Primary.Block</item>
+
+        <item name="btnSuccess">@style/CustomButton.Success</item>
+        <item name="btnSuccesstBlock">@style/CustomButton.Success.Block</item>
+
+        <item name="btnInfo">@style/CustomButton.Info</item>
+        <item name="btnInfoBlock">@style/CustomButton.Info.Block</item>
+
+        <item name="btnWarning">@style/CustomButton.Warning</item>
+        <item name="btnWarningBlock">@style/CustomButton.Warning.Block</item>
+
+        <item name="btnDanger">@style/CustomButton.Danger</item>
+        <item name="btnDangerBlock">@style/CustomButton.Danger.Block</item>
+
+        <!-- Labels -->
+        <item name="label">@style/CustomLabel</item>
+        <item name="labelDefault">@style/CustomLabel.Default</item>
+        <item name="labelDefaultSmall">@style/CustomLabel.Default.Small</item>
+        <item name="labelDefaultMedium">@style/CustomLabel.Default.Medium</item>
+        <item name="labelDefaultLarge">@style/CustomLabel.Default.Large</item>
+
+        <item name="labelPrimary">@style/CustomLabel.Primary</item>
+        <item name="labelPrimarySmall">@style/CustomLabel.Primary.Small</item>
+        <item name="labelPrimaryMedium">@style/CustomLabel.Primary.Medium</item>
+        <item name="labelPrimaryLarge">@style/CustomLabel.Primary.Large</item>
+
+        <item name="labelSuccess">@style/CustomLabel.Success</item>
+        <item name="labelSuccessSmall">@style/CustomLabel.Success.Small</item>
+        <item name="labelSuccessMedium">@style/CustomLabel.Success.Medium</item>
+        <item name="labelSuccessLarge">@style/CustomLabel.Success.Large</item>
+
+        <item name="labelInfo">@style/CustomLabel.Info</item>
+        <item name="labelInfoSmall">@style/CustomLabel.Info.Small</item>
+        <item name="labelInfoMedium">@style/CustomLabel.Info.Medium</item>
+        <item name="labelInfoLarge">@style/CustomLabel.Info.Large</item>
+
+        <item name="labelWarning">@style/CustomLabel.Warning</item>
+        <item name="labelWarningSmall">@style/CustomLabel.Warning.Small</item>
+        <item name="labelWarningMedium">@style/CustomLabel.Warning.Medium</item>
+        <item name="labelWarningLarge">@style/CustomLabel.Warning.Large</item>
+
+        <item name="labelDanger">@style/CustomLabel.Danger</item>
+        <item name="labelDangerSmall">@style/CustomLabel.Danger.Small</item>
+        <item name="labelDangerMedium">@style/CustomLabel.Danger.Medium</item>
+        <item name="labelDangerLarge">@style/CustomLabel.Danger.Large</item>
 
     </style>
 
-    <!--<style name="ContentStyle" parent="Module.Widget.ContentStyle">-->
+    <style name="CustomContent" parent="Module.Widget.Content">
 
-        <!--<item name="android:background">@color/base_color_white_100</item>-->
+        <item name="android:background">@color/base_color_white_100</item>
 
-    <!--</style>-->
+    </style>
 
-    <!--<style name="CancelButton" parent="Module.Widget.CancelButton">-->
+    <style name="CustomSwipeRefreshLayout" parent="Module.Widget.SwipeRefreshLayout">
 
-        <!--<item name="android:background">@drawable/bg_button_cancel</item>-->
-        <!--<item name="android:textColor">@color/base_color_white_0</item>-->
-        <!--<item name="android:drawableLeft">@null</item>-->
-        <!--<item name="android:text">Cancelar</item>-->
+        <item name="firstProgressColor">@color/custom_swip_bg</item>
+        <item name="secondProgressColor">@color/custom_swip_bg_2</item>
+        <item name="thirdProgressColor">@color/custom_swip_bg_3</item>
+        <item name="fourtProgressColor">@color/custom_swip_bg_4</item>
 
-    <!--</style>-->
+    </style>
 
-    <!--<style name="SendButton" parent="Module.Widget.SendButton">-->
+    <style name="CustomContentLoadFooter" parent="Module.Widget.ContentLoadFooter">
 
-        <!--<item name="android:background">@drawable/bg_button_send</item>-->
-        <!--<item name="android:textColor">@color/base_color_white_0</item>-->
-        <!--<item name="android:text">Enviar</item>-->
-        <!--<item name="android:drawableLeft">@null</item>-->
+        <item name="android:background">@color/base_color_white_100</item>
+        <item name="android:orientation">vertical</item>
 
-    <!--</style>-->
+    </style>
 
-    <!--<style name="MessageStyle" parent="Module.Widget.MessageStyle">-->
+    <style name="CustomProgressBarLoadFooter" parent="Module.Widget.ProgressBarLoadFooter">
 
-        <!--<item name="android:textColor">@color/base_color_black_400</item>-->
-        <!--<item name="android:textSize">25sp</item>-->
-        <!--<item name="android:text">Novo</item>-->
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:padding">3dp</item>
 
-    <!--</style>-->
+    </style>
+
+    <style name="CustomSpaceLineFooter" parent="Module.Widget.SpaceLineFooter">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">86dp</item>
+        <item name="android:visibility">gone</item>
+
+    </style>
+
+    <style name="CustomContentSelector" parent="Module.Widget.ContentSelector">
+
+        <item name="android:background">@drawable/custom_background_item_list</item>
+        <item name="android:clickable">false</item>
+        <item name="android:duplicateParentState">true</item>
+
+    </style>
+
+    <style name="CustomImageUserBodyItemList" parent="Module.Widget.ImageUserBodyItemList">
+
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:src">@drawable/img_user</item>
+
+    </style>
+
+    <style name="CustomRecyclerView" parent="Module.Widget.RecyclerView">
+
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+
+    </style>
+
+    <!--
+    ================================================================================================
+    Buttons
+    ================================================================================================
+    -->
+
+    <!-- btn -->
+    <style name="CustomButton" parent="Button">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+
+    </style>
+
+    <!-- btn Default -->
+    <style name="CustomButton.Default">
+
+        <item name="android:background">@drawable/custom_btn_default_background</item>
+        <item name="android:textColor">@color/custom_btn_default_bg_text</item>
+        <item name="android:text">Custom Default</item>
+
+    </style>
+
+    <!-- btn Default Block -->
+    <style name="CustomButton.Default.Block">
+
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+
+    <!-- btn Primary -->
+    <style name="CustomButton.Primary">
+
+        <item name="android:text">Custom Primary</item>
+        <item name="android:background">@drawable/custom_btn_primary_background</item>
+        <item name="android:textColor">@color/custom_btn_primary_bg_text</item>
+
+    </style>
+
+    <style name="CustomButton.Primary.Block">
+
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+
+    <!-- btn Success -->
+    <style name="CustomButton.Success">
+
+        <item name="android:text">Custom Success</item>
+        <item name="android:background">@drawable/custom_btn_success_background</item>
+        <item name="android:textColor">@color/custom_btn_success_bg_text</item>
+
+    </style>
+
+    <style name="CustomButton.Success.Block">
+
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+
+    <!-- btn Info -->
+    <style name="CustomButton.Info">
+
+        <item name="android:text">Custom Info</item>
+        <item name="android:background">@drawable/custom_btn_info_background</item>
+        <item name="android:textColor">@color/custom_btn_info_bg_text</item>
+
+    </style>
+
+    <style name="CustomButton.Info.Block">
+
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+
+    <!-- btn Warning -->
+    <style name="CustomButton.Warning">
+
+        <item name="android:text">Custom Warning</item>
+        <item name="android:background">@drawable/custom_btn_warning_background</item>
+        <item name="android:textColor">@color/custom_btn_warning_bg_text</item>
+
+    </style>
+
+    <style name="CustomButton.Warning.Block">
+
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+
+    <!-- btn Danger -->
+    <style name="CustomButton.Danger">
+
+        <item name="android:text">Custom Danger</item>
+        <item name="android:background">@drawable/custom_btn_danger_background</item>
+        <item name="android:textColor">@color/custom_btn_danger_bg_text</item>
+
+    </style>
+
+    <style name="CustomButton.Danger.Block">
+
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+
+    <!--
+    ================================================================================================
+    Labels
+    ================================================================================================
+    -->
+
+    <!-- Label -->
+    <style name="CustomLabel" parent="Label">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <!-- Label Default -->
+    <style name="CustomLabel.Default">
+
+        <item name="android:textColor">@color/custom_label_default_bg</item>
+        <item name="android:text">Custom Default</item>
+        <item name="android:textSize">@dimen/label_default_size</item>
+
+    </style>
+
+    <!-- Label Default Small-->
+    <style name="CustomLabel.Default.Small">
+
+        <item name="android:text">Custom Default Small</item>
+        <item name="android:textSize">@dimen/label_small_size</item>
+
+    </style>
+
+    <!-- Label Default Medium -->
+    <style name="CustomLabel.Default.Medium">
+
+        <item name="android:text">Custom Default Medium</item>
+        <item name="android:textSize">@dimen/label_medium_size</item>
+
+    </style>
+
+    <!-- Label Default Large -->
+    <style name="CustomLabel.Default.Large">
+
+        <item name="android:text">Custom Default Large</item>
+        <item name="android:textSize">@dimen/label_large_size</item>
+
+    </style>
+
+    <!-- Label Primary -->
+    <style name="CustomLabel.Primary">
+
+        <item name="android:textColor">@color/custom_label_primary_bg</item>
+        <item name="android:text">Custom Primary</item>
+        <item name="android:textSize">@dimen/label_default_size</item>
+
+    </style>
+
+    <!-- Label Primary Small-->
+    <style name="CustomLabel.Primary.Small">
+
+        <item name="android:text">Custom Primary Small</item>
+        <item name="android:textSize">@dimen/label_small_size</item>
+
+    </style>
+
+    <!-- Label Primary Medium -->
+    <style name="CustomLabel.Primary.Medium">
+
+        <item name="android:text">Custom Primary Medium</item>
+        <item name="android:textSize">@dimen/label_medium_size</item>
+
+    </style>
+
+    <!-- Label Primary Large -->
+    <style name="CustomLabel.Primary.Large">
+
+        <item name="android:text">Custom Primary Large</item>
+        <item name="android:textSize">@dimen/label_large_size</item>
+
+    </style>
+
+    <!-- Label Success -->
+    <style name="CustomLabel.Success">
+
+        <item name="android:textColor">@color/custom_label_success_bg</item>
+        <item name="android:text">Custom Success</item>
+        <item name="android:textSize">@dimen/label_default_size</item>
+
+    </style>
+
+    <!-- Label Success Small-->
+    <style name="CustomLabel.Success.Small">
+
+        <item name="android:text">Custom Success Small</item>
+        <item name="android:textSize">@dimen/label_small_size</item>
+
+    </style>
+
+    <!-- Label Success Medium -->
+    <style name="CustomLabel.Success.Medium">
+
+        <item name="android:text">Custom Success Medium</item>
+        <item name="android:textSize">@dimen/label_medium_size</item>
+
+    </style>
+
+    <!-- Label Success Large -->
+    <style name="CustomLabel.Success.Large">
+
+        <item name="android:text">Custom Success Large</item>
+        <item name="android:textSize">@dimen/label_large_size</item>
+
+    </style>
+
+    <!-- Label Info -->
+    <style name="CustomLabel.Info">
+
+        <item name="android:textColor">@color/custom_label_info_bg</item>
+        <item name="android:text">Custom Info</item>
+        <item name="android:textSize">@dimen/label_default_size</item>
+
+    </style>
+
+    <!-- Label Info Small-->
+    <style name="CustomLabel.Info.Small">
+
+        <item name="android:text">Custom Info Small</item>
+        <item name="android:textSize">@dimen/label_small_size</item>
+
+    </style>
+
+    <!-- Label Info Medium -->
+    <style name="CustomLabel.Info.Medium">
+
+        <item name="android:text">Custom Info Medium</item>
+        <item name="android:textSize">@dimen/label_medium_size</item>
+
+    </style>
+
+    <!-- Label Info Large -->
+    <style name="CustomLabel.Info.Large">
+
+        <item name="android:text">Custom Info Large</item>
+        <item name="android:textSize">@dimen/label_large_size</item>
+
+    </style>
+
+    <!-- Label Warning -->
+    <style name="CustomLabel.Warning">
+
+        <item name="android:textColor">@color/custom_label_warning_bg</item>
+        <item name="android:text">Custom Warning</item>
+        <item name="android:textSize">@dimen/label_default_size</item>
+
+    </style>
+
+    <!-- Label Warning Small-->
+    <style name="CustomLabel.Warning.Small">
+
+        <item name="android:text">Custom Warning Small</item>
+        <item name="android:textSize">@dimen/label_small_size</item>
+
+    </style>
+
+    <!-- Label Warning Medium -->
+    <style name="CustomLabel.Warning.Medium">
+
+        <item name="android:text">Custom Warning Medium</item>
+        <item name="android:textSize">@dimen/label_medium_size</item>
+
+    </style>
+
+    <!-- Label Warning Large -->
+    <style name="CustomLabel.Warning.Large">
+
+        <item name="android:text">Custom Warning Large</item>
+        <item name="android:textSize">@dimen/label_large_size</item>
+
+    </style>
+
+    <!-- Label Danger -->
+    <style name="CustomLabel.Danger">
+
+        <item name="android:textColor">@color/custom_label_danger_bg</item>
+        <item name="android:text">Custom Danger</item>
+        <item name="android:textSize">@dimen/label_default_size</item>
+
+    </style>
+
+    <!-- Label Danger Small-->
+    <style name="CustomLabel.Danger.Small">
+
+        <item name="android:text">Custom Danger Small</item>
+        <item name="android:textSize">@dimen/label_small_size</item>
+
+    </style>
+
+    <!-- Label Danger Medium -->
+    <style name="CustomLabel.Danger.Medium">
+
+        <item name="android:text">Custom Danger Medium</item>
+        <item name="android:textSize">@dimen/label_medium_size</item>
+
+    </style>
+
+    <!-- Label Danger Large -->
+    <style name="CustomLabel.Danger.Large">
+
+        <item name="android:text">Custom Danger Large</item>
+        <item name="android:textSize">@dimen/label_large_size</item>
+
+    </style>
 
 </resources>

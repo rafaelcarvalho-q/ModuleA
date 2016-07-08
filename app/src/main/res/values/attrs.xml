@@ -18,68 +18,68 @@
     -->
 
     <attr name="btn" format="reference"/>
-
     <attr name="btnDefault" format="reference"/>
-    <!--<attr name="btnDefaultSmall" format="reference"/>-->
-    <!--<attr name="btnDefaultMedium" format="reference"/>-->
-    <!--<attr name="btnDefaultLarge" format="reference"/>-->
     <attr name="btnDefaultBlock" format="reference"/>
-
     <attr name="btnPrimary" format="reference"/>
-    <!--<attr name="btnPrimarySmall" format="reference"/>-->
-    <!--<attr name="btnPrimaryMedium" format="reference"/>-->
-    <!--<attr name="btnPrimaryLarge" format="reference"/>-->
     <attr name="btnPrimaryBlock" format="reference"/>
-
-    <!--<attr name="btnSuccess" format="reference"/>-->
-    <!--<attr name="btnSuccessSmall" format="reference"/>-->
-    <!--<attr name="btnSuccessMedium" format="reference"/>-->
-    <!--<attr name="btnSuccessLarge" format="reference"/>-->
-    <!--<attr name="btnSuccesstBlock" format="reference"/>-->
-
-    <!--<attr name="btnInfo" format="reference"/>-->
-    <!--<attr name="btnInfoSmall" format="reference"/>-->
-    <!--<attr name="btnInfoMedium" format="reference"/>-->
-    <!--<attr name="btnInfoLarge" format="reference"/>-->
-    <!--<attr name="btnInfotBlock" format="reference"/>-->
-
-    <!--<attr name="btnWarning" format="reference"/>-->
-    <!--<attr name="btnWarningSmall" format="reference"/>-->
-    <!--<attr name="btnWarningMedium" format="reference"/>-->
-    <!--<attr name="btnWarningLarge" format="reference"/>-->
-    <!--<attr name="btnWarningBlock" format="reference"/>-->
-
-    <!--<attr name="btnDanger" format="reference"/>-->
-    <!--<attr name="btnDangerSmall" format="reference"/>-->
-    <!--<attr name="btnDangerMedium" format="reference"/>-->
-    <!--<attr name="btnDangerLarge" format="reference"/>-->
-    <!--<attr name="btnDangerBlock" format="reference"/>-->
-
-    <!--<attr name="btnLink" format="reference"/>-->
-    <!--<attr name="btnLinkSmall" format="reference"/>-->
-    <!--<attr name="btnLinkMedium" format="reference"/>-->
-    <!--<attr name="btnLinkLarge" format="reference"/>-->
-    <!--<attr name="btnLinkBlock" format="reference"/>-->
+    <attr name="btnSuccess" format="reference"/>
+    <attr name="btnSuccesstBlock" format="reference"/>
+    <attr name="btnInfo" format="reference"/>
+    <attr name="btnInfoBlock" format="reference"/>
+    <attr name="btnWarning" format="reference"/>
+    <attr name="btnWarningBlock" format="reference"/>
+    <attr name="btnDanger" format="reference"/>
+    <attr name="btnDangerBlock" format="reference"/>
 
     <!--
     ================================================================================================
-    Mudar
+    Labels
     ================================================================================================
     -->
 
-    <attr name="messageStyle" format="reference"/>
+    <attr name="label" format="reference"/>
+    <attr name="labelDefault" format="reference"/>
+    <attr name="labelDefaultSmall" format="reference"/>
+    <attr name="labelDefaultMedium" format="reference"/>
+    <attr name="labelDefaultLarge" format="reference"/>
+
+    <attr name="labelPrimary" format="reference"/>
+    <attr name="labelPrimarySmall" format="reference"/>
+    <attr name="labelPrimaryMedium" format="reference"/>
+    <attr name="labelPrimaryLarge" format="reference"/>
+
+    <attr name="labelSuccess" format="reference"/>
+    <attr name="labelSuccessSmall" format="reference"/>
+    <attr name="labelSuccessMedium" format="reference"/>
+    <attr name="labelSuccessLarge" format="reference"/>
+
+    <attr name="labelInfo" format="reference"/>
+    <attr name="labelInfoSmall" format="reference"/>
+    <attr name="labelInfoMedium" format="reference"/>
+    <attr name="labelInfoLarge" format="reference"/>
+
+    <attr name="labelWarning" format="reference"/>
+    <attr name="labelWarningSmall" format="reference"/>
+    <attr name="labelWarningMedium" format="reference"/>
+    <attr name="labelWarningLarge" format="reference"/>
+
+    <attr name="labelDanger" format="reference"/>
+    <attr name="labelDangerSmall" format="reference"/>
+    <attr name="labelDangerMedium" format="reference"/>
+    <attr name="labelDangerLarge" format="reference"/>
+
+    <!--
+    ================================================================================================
+    Geral
+    ================================================================================================
+    -->
+
     <attr name="swipeRefreshLayout" format="reference"/>
     <attr name="recyclerView" format="reference"/>
     <attr name="progressBarLoadFooter" format="reference"/>
     <attr name="contentLoadFooter" format="reference"/>
     <attr name="spaceLineFooter" format="reference"/>
-
-
     <attr name="imageUserBodyItemList" format="reference"/>
-    <attr name="labelDefault" format="reference"/>
-    <attr name="labelPrimary" format="reference"/>
-    <attr name="labelInfo" format="reference"/>
-    <attr name="labelInfoIcon" format="reference"/>
 
 
     <!-- Compartilhadas -->

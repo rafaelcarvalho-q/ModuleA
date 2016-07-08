@@ -139,4 +139,88 @@
     <color name="colorTextSecondary">@color/base_color_white_500</color>
     <color name="windowBackground">@color/base_color_white_0</color>
 
+    <!--
+    ================================================================================================
+    Components
+    ================================================================================================
+    -->
+
+    <!-- Swip Color -->
+    <color name="custom_swip_bg">@color/base_color_orange_100</color>
+    <color name="custom_swip_bg_2">@color/base_color_blue_300</color>
+    <color name="custom_swip_bg_3">@color/base_color_red_300</color>
+    <color name="custom_swip_bg_4">@color/base_color_purple_300</color>
+
+    <!--
+    ================================================================================================
+    Buttons
+    ================================================================================================
+    -->
+
+    <!-- btn Default-->
+    <color name="custom_btn_default_bg">@color/base_color_red_300</color>
+    <color name="custom_btn_default_bg_pressed">@color/base_color_red_500</color>
+    <color name="custom_btn_default_bg_focused">@color/base_color_red_500</color>
+    <color name="custom_btn_default_bg_activated">@color/base_color_red_500</color>
+    <color name="custom_btn_default_bg_text">@color/base_color_white_0</color>
+
+    <!-- Custom btn Primary-->
+    <color name="custom_btn_primary_bg">@color/base_color_orange_300</color>
+    <color name="custom_btn_primary_bg_pressed">@color/base_color_orange_500</color>
+    <color name="custom_btn_primary_bg_focused">@color/base_color_orange_500</color>
+    <color name="custom_btn_primary_bg_activated">@color/base_color_orange_500</color>
+    <color name="custom_btn_primary_bg_text">@color/base_color_white_0</color>
+
+    <!-- Custom btn Success-->
+    <color name="custom_btn_success_bg">@color/base_color_blue_300</color>
+    <color name="custom_btn_success_bg_pressed">@color/base_color_blue_500</color>
+    <color name="custom_btn_success_bg_focused">@color/base_color_blue_500</color>
+    <color name="custom_btn_success_bg_activated">@color/base_color_blue_500</color>
+    <color name="custom_btn_success_bg_text">@color/base_color_white_0</color>
+
+    <!-- Custom btn Info-->
+    <color name="custom_btn_info_bg">@color/base_color_green_300</color>
+    <color name="custom_btn_info_bg_pressed">@color/base_color_green_500</color>
+    <color name="custom_btn_info_bg_focused">@color/base_color_green_500</color>
+    <color name="custom_btn_info_bg_activated">@color/base_color_green_500</color>
+    <color name="custom_btn_info_bg_text">@color/base_color_white_0</color>
+
+    <!-- Custom btn Warning-->
+    <color name="custom_btn_warning_bg">@color/base_color_dark_blue_300</color>
+    <color name="custom_btn_warning_bg_pressed">@color/base_color_dark_blue_500</color>
+    <color name="custom_btn_warning_bg_focused">@color/base_color_dark_blue_500</color>
+    <color name="custom_btn_warning_bg_activated">@color/base_color_dark_blue_500</color>
+    <color name="custom_btn_warning_bg_text">@color/base_color_white_0</color>
+
+    <!-- Custom btn Danger-->
+    <color name="custom_btn_danger_bg">@color/base_color_white_0</color>
+    <color name="custom_btn_danger_bg_pressed">@color/base_color_white_300</color>
+    <color name="custom_btn_danger_bg_focused">@color/base_color_white_300</color>
+    <color name="custom_btn_danger_bg_activated">@color/base_color_white_300</color>
+    <color name="custom_btn_danger_bg_text">@color/base_color_grey_300</color>
+
+    <!--
+    ================================================================================================
+    Labels
+    ================================================================================================
+    -->
+
+    <!-- Custom Label Default-->
+    <color name="custom_label_default_bg">@color/base_color_grey_300</color>
+
+    <!-- Custom Label Primary -->
+    <color name="custom_label_primary_bg">@color/base_color_dark_blue_300</color>
+
+    <!-- Custom Label Success -->
+    <color name="custom_label_success_bg">@color/base_color_green_300</color>
+
+    <!-- Custom Label Info -->
+    <color name="custom_label_info_bg">@color/base_color_blue_300</color>
+
+    <!-- Custom Label Warning -->
+    <color name="custom_label_warning_bg">@color/base_color_orange_300</color>
+
+    <!-- Custom Label Danger -->
+    <color name="custom_label_danger_bg">@color/base_color_red_300</color>
+
 </resources>

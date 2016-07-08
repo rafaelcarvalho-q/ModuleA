@@ -20,9 +20,13 @@ public class ModuleAFragment extends Fragment {
 
     // Views
     private View view;
-    private TextView tvMmessage;
-    private Button btCancel;
-    private Button btSend;
+    private TextView tvTitle;
+    private Button btDefault;
+    private Button btPrimary;
+    private Button btSuccess;
+    private Button btInfo;
+    private Button btWarning;
+    private Button btDanger;
 
     @Nullable
     @Override
@@ -34,34 +38,69 @@ public class ModuleAFragment extends Fragment {
         return view;
     }
 
-    public void setMessage(@NonNull String message) {
+    public void setTitle(String titile) {
 
-        tvMmessage.setText(message);
+        tvTitle.setText(titile);
     }
 
-    public void setCancelButtonLabel(@NonNull String label) {
+    public void setButtonDefaultLabel(String label) {
 
-        btCancel.setText(label);
+        btDefault.setText(label);
     }
 
-    public void setSendButtonLabel(@NonNull String label) {
+    public void setButtonDefaultOnClickListener(View.OnClickListener onClickListener) {
 
-        btSend.setText(label);
+        btDefault.setOnClickListener(onClickListener);
     }
 
-    public void setMessage(@StringRes int idMessage) {
+    public void setButtonPrimaryLabel(String label) {
 
-        tvMmessage.setText(idMessage);
+        btPrimary.setText(label);
     }
 
-    public void setCancelButtonListener(@NonNull View.OnClickListener onClickListener) {
+    public void setButtonPrimaryOnClickListener(View.OnClickListener onClickListener) {
 
-        btCancel.setOnClickListener(onClickListener);
+        btPrimary.setOnClickListener(onClickListener);
     }
 
-    public void setSendButtonListener(@NonNull View.OnClickListener onClickListener) {
+    public void setButtonSuccessLabel(String label) {
 
-        btSend.setOnClickListener(onClickListener);
+        btSuccess.setText(label);
+    }
+
+    public void setButtonSuccessOnClickListener(View.OnClickListener onClickListener) {
+
+        btSuccess.setOnClickListener(onClickListener);
+    }
+
+    public void setButtonInfoLabel(String label) {
+
+        btInfo.setText(label);
+    }
+
+    public void setButtonInfoOnClickListener(View.OnClickListener onClickListener) {
+
+        btInfo.setOnClickListener(onClickListener);
+    }
+
+    public void setButtonWarningLabel(String label) {
+
+        btWarning.setText(label);
+    }
+
+    public void setButtonWarningOnClickListener(View.OnClickListener onClickListener) {
+
+        btWarning.setOnClickListener(onClickListener);
+    }
+
+    public void setButtonDangerLabel(String label) {
+
+        btDanger.setText(label);
+    }
+
+    public void setButtonDangerOnClickListener(View.OnClickListener onClickListener) {
+
+        btDanger.setOnClickListener(onClickListener);
     }
 
     //==============================================================================================
@@ -70,8 +109,12 @@ public class ModuleAFragment extends Fragment {
 
     private void setScreenComponents() {
 
-        tvMmessage = (TextView) view.findViewById(R.id.tv_message);
-        btCancel = (Button) view.findViewById(R.id.bt_cancel);
-        btSend = (Button) view.findViewById(R.id.bt_send);
+        tvTitle = (TextView) view.findViewById(R.id.tv_title);
+        btDefault = (Button) view.findViewById(R.id.bt_default);
+        btPrimary = (Button) view.findViewById(R.id.bt_primary);
+        btSuccess = (Button) view.findViewById(R.id.bt_success);
+        btInfo = (Button) view.findViewById(R.id.bt_info);
+        btWarning = (Button) view.findViewById(R.id.bt_warning);
+        btDanger = (Button) view.findViewById(R.id.bt_danger);
     }
 }

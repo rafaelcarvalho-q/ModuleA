@@ -29,27 +29,27 @@
 
             <TextView
                 android:id="@+id/tv_first_name"
-                style="?attr/labelDefault"
+                style="?attr/labelDefaultLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
             <TextView
                 android:id="@+id/tv_last_name"
-                style="?attr/labelPrimary"
+                style="?attr/labelPrimaryMedium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tv_first_name"/>
 
             <TextView
                 android:id="@+id/tv_email"
-                style="?attr/labelInfo"
+                style="?attr/labelDangerMedium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tv_last_name"/>
 
             <com.qranio.modulea.view.custom.TextViewCustom
                 android:id="@+id/tv_date"
-                style="?attr/labelInfoIcon"
+                style="?attr/labelDefaultMedium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tv_email"/>

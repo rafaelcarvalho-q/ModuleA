@@ -11,31 +11,40 @@
         android:layout_centerHorizontal="true">
 
         <TextView
-            android:id="@+id/tv_message"
-            style="?attr/messageStyle"/>
+            android:id="@+id/tv_title"
+            style="?attr/labelPrimaryLarge"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true">
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
 
             <Button
-                android:id="@+id/bt_cancel"
-                style="?attr/btnDefaultBlock"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/tv_message"
-                android:layout_centerHorizontal="true"
-                android:layout_weight="1"/>
+                android:id="@+id/bt_default"
+                style="?attr/btnDefaultBlock"/>
 
-            <!--<Button-->
-                <!--android:id="@+id/bt_send"-->
-                <!--style="?attr/btnPrimaryBlock"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_below="@+id/bt_cancel"-->
-                <!--android:layout_centerHorizontal="true"-->
-                <!--android:layout_weight="1"/>-->
+            <Button
+                android:id="@+id/bt_primary"
+                style="?attr/btnPrimaryBlock"/>
+
+            <Button
+                android:id="@+id/bt_success"
+                style="?attr/btnSuccesstBlock"/>
+
+            <Button
+                android:id="@+id/bt_info"
+                style="?attr/btnInfoBlock"/>
+
+            <Button
+                android:id="@+id/bt_warning"
+                style="?attr/btnWarningBlock"/>
+
+            <Button
+                android:id="@+id/bt_danger"
+                style="?attr/btnDangerBlock"/>
 
         </LinearLayout>
 
