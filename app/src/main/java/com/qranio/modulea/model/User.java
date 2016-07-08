@@ -3,16 +3,19 @@ package com.qranio.modulea.model;
 import android.support.annotation.DrawableRes;
 import android.support.annotation.IdRes;
 
+import org.parceler.Parcel;
+
 /**
  * Created by Rafael C. Almeida on 07/07/16.
  */
+@Parcel
 public class User {
 
-    private String firstName;
-    private String lastName;
-    private int imageIdRes;
-    private String email;
-    private String date;
+    String firstName;
+    String lastName;
+    int imageIdRes;
+    String email;
+    String date;
 
     public User() {
     }
